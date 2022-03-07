@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <link rel="shortcut icon" href="./assets/img/logoIcon.ico">
+</head>
+
+<body>
+    <header>
+        <section>
+            <img class="logo" src="./assets/img/logo.png" alt="sweetSport">
+            <p class="encabezado">PASTELERIA SWEETSPORT</p>
+
+        </section>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sabores.html">Sabores</a></li>
+            <li><a href="decoraciones.html">Decoraciones</a></li>
+            <li><a href="equipos.html">Equipos</a></li>
+            <li><a href="pedido.html">Realizar Pedido</a></li>
+            <li><a href="login.html">Admin</a></li>
+        </ul>
+    </nav>
+    <h1>Realizar Pedido</h1>
+    <div class="pedido">
+        <form action="#">
+            </select>
+            <div class="field">
+                <input value="Nombre de cliente" type="text" name="Nombre">
+            </div>
+
+            <select class="lista" id="pastel" name="pastel">
+                <option value="" selected="seleccionado">-Selecciona Pastel-</option>
+                <option value="windows">Pastel Futbol</option>
+                <option value="mac">Pastel Basquetbol</option>
+                <option value="linux">Pastel Voleibol</option>
+                <option value="otro">Pastel Beisbol</option>
+                <option value="otro">Pastel Tenis</option>
+                <option value="otro">Pastel Futbol Americano</option>
+            </select>
+            <select class="lista" id="pastel" name="pastel">
+                <option value="" selected="seleccionado">-Selecciona el Sabor-</option>
+                <option value="windows">Fresa</option>
+                <option value="mac">Chocolate</option>
+                <option value="linux">Vainilla</option>
+                <option value="otro">Limon</option>
+                <option value="otro">Zanahoria</option>
+            </select>
+            <select class="lista" id="pastel" name="pastel">
+                <option value="" selected="seleccionado">-Selecciona La decoración-</option>
+                <option value="windows">Chantilly</option>
+                <option value="mac">Caramelo</option>
+                <option value="linux">Frutas</option>
+                <option value="otro">Fondant</option>
+            </select>
+            <div class="field">
+                <input value="Direccion de entrega" type="text" name="direccion">
+            </div>
+            <div class="field">
+                <input value="fecha" type="date" name="fecha">
+            </div>
+            <div class="field">
+                <input type="tel" id="tel" value="Telefono" name="tel" maxlength="10">
+            </div>
+            <div class="field">
+                <input type="email" id="email" value="Email" name="email">
+            </div>
+                
+            <div>
+                <h7>Desea Incluir velas</h7> <br>
+                <input type="radio" id="si" name="siono" value="si">
+                <label for="si">Si</label><br>
+                <input type="radio" id="no" name="siono" value="no">
+                <label for="no">No</label><br>
+            </div><br>
+            <textarea  class="comentario" name="comentarios"  cols="40">Escribe si tienes algun requisito adicional</textarea>
+
+            <button class="iniciar" type="submit">Realizar Pedido</button>
+
+        </form>
+    </div><br><br><br>
+    <footer>
+        <div><br>
+          <p>Domicilio:AZCAPOTZALCO LA VILLA 1257 , POPULAR HEROES DE CURUBUSCO , GUSTAVO A. MADERO , DF , C.P. 07300 </p>
+          <p>Correo Electronico: sweetsport@outlook.com</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
